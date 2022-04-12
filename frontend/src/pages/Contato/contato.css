@@ -1,0 +1,104 @@
+/* TÍTULO */
+
+.divmaetitulo{
+  background-color: grey;
+}
+
+.titulo h1 {
+  text-align: center;
+  color: black;
+  margin-top: 40px;
+}
+
+.caixa{
+  margin-left: 280px;
+  width: 800px;
+}
+.form-select option{
+  margin-left: 505px;
+}
+
+/* SUBTÍTULO*/
+
+.subtitulo{
+  margin-top: 200px;
+  text-align: center;
+}
+
+.divcontato {
+  display: flex;
+  margin-top: 80px;
+}
+
+.divcontato h3 {
+  margin-left: 150px;
+  color: forestgreen;
+}
+
+.introducao h3 {
+  margin-left: 400px;
+}
+
+.introducao h5 {
+  margin-left: 50px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+
+/* FORMULÁRIO */
+
+.form {
+  margin-left: 50px;
+  line-height: 35px;
+  margin-top: 10px;
+}
+
+.caixatxt {
+  width: 500px;
+  height: 30px;
+  text-decoration: none;
+}
+
+.emailtxt {
+  width: 500px;
+  height: 30px;
+}
+
+.messagetxt {
+  width: 500px;
+  height: 150px;
+}
+
+
+.button1 {
+  margin-left: 400px;
+  margin-bottom: 40px;
+  width: 12%;
+  height: 40px;
+  background: forestgreen;
+  border: 0;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1px;
+  transition: filter 0.2s;
+}
+
+.button:hover {
+  filter: brightness(110%);
+}
+
+.divimagem {
+  display: flex;
+}
+
+.divimagem img {
+  height: 350px;
+  width: 650px;
+  margin-top: 50px;
+  margin-left: 100px;
+}

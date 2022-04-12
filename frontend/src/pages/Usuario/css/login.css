@@ -1,0 +1,130 @@
+.loginmae {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.login {
+  background-color: #008000;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+.login h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login h4 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-weight: 300;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #e8f0fe;
+}
+
+.backGroundImage {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
+.loginInputEmail {
+  display: flex;
+  align-items: center;
+  color: gray;
+  background-color: #e8f0fe;
+  border-radius: 5px;
+  padding: 3px;
+  width: 98%;
+  height: 50px;
+}
+
+.loginInputEmail svg {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.loginInputEmail input {
+  background: transparent;
+  width: 100%;
+  color: black;
+  border: none;
+  font-size: 17px;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+
+.loginInputPassword {
+  display: flex;
+  align-items: center;
+  color: gray;
+  background-color: #e8f0fe;
+  border-radius: 5px;
+  padding: 3px;
+  width: 98%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.loginInputPassword svg {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.loginInputPassword input {
+  background: transparent;
+  width: 100%;
+  color: black;
+  border: none;
+  font-size: 17px;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+
+.login button {
+  width: 98%;
+  background-color: #00a000;
+  color: #EFF2F5;
+  font-weight: 800;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 10px;
+  border: none;
+}
+
+.login button:hover {
+  filter: brightness(110%);
+  color: #EFF2F5;
+  cursor: pointer;
+}
+
+.link {
+  padding-top: 17px;
+  margin-left: 100px;
+  text-align: center;
+  text-decoration: none;
+  transition: filter 0.10s;
+  color: #EFF2F5;
+  padding-left: 20px;
+}
+
+.link:hover {
+  filter: brightness(110%);
+  color: #EFF2F5;
+}
+

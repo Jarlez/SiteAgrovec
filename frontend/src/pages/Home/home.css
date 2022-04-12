@@ -1,0 +1,391 @@
+/* NAVBAR */
+
+.divmae {
+  display: flex;
+  width: 100%;
+}
+
+.container-nav {
+  width: 100%;
+}
+
+.container-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.nav-link {
+  margin-top: 30px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 30px;
+  transition: filter 0.10s;
+}
+
+.nav-link:hover {
+  filter: brightness(110%);
+  color: forestgreen !important;
+}
+
+/* IMAGEM DA NAVBAR */
+
+.divmae img {
+  width: 150px;
+  margin-left: 120px;
+  height: 150px;
+}
+
+/* FABRICA DE RAÇÃO PARA ANIMAIS */
+
+.apresentacao h1 {
+  font-size: clamp(3em, 100%, 5em);
+  text-align: center;
+}
+
+/* BEM VINDO A AGROVEC */
+
+.apresentacao h2 {
+  font-family: 'Allura', regular;
+  font-size: clamp(4em, 100%, 5em);
+  text-align: center;
+  margin-top: 200px;
+  color: forestgreen;
+}
+
+/* IMAGEM LOGO AGROVEC */
+
+.logos {
+  background-color: #e9e9e9;
+  width: 100%;
+  height: 100%;
+}
+
+.logos img {
+  width: 12%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 155px;
+}
+
+/* FABRICAÇÃO COM EXELENCIA */
+
+.midpage {
+  background-color: #e9e9e9;
+  margin-bottom: 20px;
+}
+
+.fabricacao {
+  width: 100%;
+  height: 50vh;
+}
+
+.fabricacao h1 {
+  font-size: clamp(2.8em, 100%, 5em);
+  text-align: center;
+}
+
+/* NOSSA FILOSOFIA*/
+
+.fabricacao h2 {
+  font-family: 'Allura', regular;
+  font-size: clamp(3.8em, 100%, 5em);
+  text-align: center;
+  color: forestgreen;
+}
+
+/* Paragrafo AGROVEC*/
+
+.fabricacao p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(1.30em, 100%, 5em);
+  text-align: center;
+  opacity: 70%;
+}
+
+/* BOTAO */
+
+.button {
+  margin-left: 43.5%;
+  width: 12%;
+  height: 40px;
+  background: forestgreen;
+  border: 0;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1px;
+  transition: filter 0.2s;
+}
+
+button:hover {
+  filter: brightness(110%);
+}
+
+/* PRINCIPAIS PRODUTOS */
+
+.produtos h1 {
+  font-size: 2.7rem;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 3rem;
+}
+
+/* IMAGENS PRODUTOS */
+
+.produtosv {
+  display: flex;
+}
+
+/* LISTA DE PRODUTOS */
+
+.produtosv img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.produtosv li {
+  list-style: none;
+}
+
+.produtosv a {
+  color: forestgreen;
+  list-style: none;
+}
+
+/* PRODUTOS */
+
+.produto {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.produto img {
+  width: 250px;
+  height: 310px;
+}
+
+.produto img:hover {
+  transform: scale(0.9);
+  transition: width .20s ease-in-out;
+}
+
+.produto h4 {
+  opacity: 70%;
+  font-size: 20PX;
+}
+
+.produto h3 {
+  font-size: 25PX;
+}
+
+/* ENDPAGE */
+
+.endpage {
+  margin-top: 4%;
+  display: flex;
+  background-color: #e9e9e9;
+}
+
+.textos {
+  margin-left: 10%;
+  display: flex;
+  margin-top: 30px;
+}
+
+.textos2 {
+  background-color: #e9e9e9;
+}
+
+.textos h2 {
+  font-size: 50px;
+}
+
+.textos p {
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 70%;
+}
+
+.textos2 {
+  display: flex;
+  opacity: unset;
+  height: 15vh;
+}
+
+.button2 {
+  margin-left: 25%;
+  width: 12%;
+  height: 40px;
+  background: forestgreen;
+  border: 0;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 0px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 30px;
+  transition: filter 0.2s;
+}
+
+button1:hover {
+  filter: brightness(110%);
+}
+
+.textos2 h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-left: 13%;
+  margin-top: -50px;
+}
+
+/* RODAPÉ */
+
+.main-footer {
+  color: white;
+  background-color: forestgreen;
+  padding-top: 0.5em;
+  padding-right: 48px;
+  width: auto;
+}
+
+.row img {
+  width: 250px;
+  height: auto;
+  margin-left: 50px;
+  margin-top: -30px;
+}
+
+.col {
+  border-right: 3px solid #b87333;
+}
+
+.endereco {
+  font-size: 0.9rem;
+  margin-left: 70px;
+  margin-top: -30px;
+}
+
+.bairro {
+  margin-left: 35px;
+  margin-top: -5px;
+}
+
+.email {
+  font-size: 0.9rem;
+  margin-left: 70px;
+}
+
+.numero {
+  display: flex;
+  font-size: 1.5rem;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-weight: 700;
+}
+
+.bar {
+  text-align: center;
+  margin-right: 25px;
+  margin-top: 30px;
+  list-style: none;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.bar ul {
+  list-style: none;
+}
+
+.bar li {
+  color: #fff;
+  padding: 6px;
+}
+
+.bar a {
+  list-style: none;
+  color: #fff;
+  text-decoration: none;
+  transition: filter 0.2s;
+}
+
+.bar a:hover {
+  filter: brightness(110%);
+  color: #b87333;
+}
+
+.col-3 h5 {
+  font-family: 'Anton', sans-serif;
+  margin-left: 58px;
+  margin-top: 45px;
+  margin-right: 65px;
+  font-size: 32px;
+}
+
+.redesociais {
+  width: 100%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.redesociais ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+}
+
+.redesociais li {
+  padding-right: 12px;
+}
+/* ICONES REDES SOCIAIS RODAPÉ */
+.facebook-icon {
+  color: #b87333;
+}
+
+.facebook-icon:hover {
+  color: #0674e7;
+  transition: 0.5s;
+}
+
+.instagram-icon {
+  color: #b87333;
+}
+
+.instagram-icon:hover {
+  color: #BC1E69;
+  transition: 0.5s;
+}
+
+.email-icon {
+  color: #b87333;
+}
+
+.email-icon:hover {
+  color: #d12e27;
+  transition: 0.5s;
+}
+
+.whatsapp-icon {
+  color: #b87333;
+}
+
+.whatsapp-icon:hover {
+  color: #fff;
+  transition: 0.5s;
+}
